@@ -1,0 +1,16 @@
+server:
+  #default port 8080
+  port: 8989
+
+spring:
+  jackson:
+    # 这个配置将告诉 Jackson 序列化器，当对象的属性为 null 时，不将其包含在序列化的结果中，而是忽略它们
+    default-property-inclusion: non_null
+
+#springdoc:
+#  swagger-ui:
+#    path: /swagger-ui.html
+
+#default url:
+#  http://localhost:8989/swagger-ui/index.html
+#  http://localhost:8989/v3/api-docs
