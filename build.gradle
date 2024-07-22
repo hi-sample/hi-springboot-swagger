@@ -21,7 +21,7 @@ dependencies {
     implementation ('org.springframework.boot:spring-boot-starter-web')
 
     //swagger仅在开发环境使用，不打包到jar中，因安全考虑，生产环境禁止使用swagger
-    compileOnly 'org.springdoc:springdoc-openapi-ui:1.7.0'
+    compileOnly 'org.springdoc:springdoc-openapi-ui:1.8.0'
     //compileOnly 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
